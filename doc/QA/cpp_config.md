@@ -4,7 +4,7 @@
 
 ## 1. 项目目录结构
 
-<div style="text-align: center;">
+<div align=center>
   <img src="../imgs/QA/cpp/cpp_subject_struct.png" alt="示例图片" style="max-width: 80%; height: auto;">
 </div>
 
