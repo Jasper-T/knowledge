@@ -13,11 +13,11 @@
    - [1.6 GAN](#16-GAN)
    - [1.7 强化学习](#17-强化学习)
 
-2. [目标检测模型](#2-目标检测模型)
-   - [2.1 One-Stage 检测模型](#21-one-stage-检测模型)
+2. [目标检测模型](#2-目标检测)
+   - [2.1 One-Stage 检测模型](#21-one-stage)
      - [YOLO 系列](#yolo-系列)
      - [SSD 系列](#ssd-系列)
-   - [2.2 Two-Stage 检测模型](#22-two-stage-检测模型)
+   - [2.2 Two-Stage 检测模型](#22-two-stage)
      - [RCNN 系列](#rcnn-系列)
    - [2.3 目标检测评价指标](#23-目标检测评价指标)
 
@@ -93,22 +93,22 @@ Transformer 模型是自然语言处理和其他任务中具有革命性影响�
 
 ---
 
-## 2. 目标检测模型
+## 2. 目标检测
 
-### 2.1 One-Stage 检测模型
+### 2.1 One-Stage
 
 One-Stage 模型不需要候选区域生成，直接在图像的特征图上进行目标分类和边界框回归。由于其简单的结构和高效的处理流程，适合实时检测任务。
 
 - **[YOLO 系列](doc/OD/yolo.md)**：YOLO（You Only Look Once）将目标检测问题转化为回归问题，通过单次前向传播完成检测任务。
 - **[SSD 系列](doc/OD/ssd.md)**：SSD（Single Shot MultiBox Detector）在不同尺度的特征图上进行检测，适合处理多种大小的目标。
 
-### 2.2 Two-Stage 检测模型
+### 2.2 Two-Stage
 
 Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和边界框回归。虽然检测速度较慢，但通常具备更高的精度。
 
 - **[RCNN 系列](doc/OD/rcnn.md)**：RCNN（Regions with Convolutional Neural Networks）通过候选区域生成和分类回归实现目标检测，代表模型包括 Fast RCNN、Faster RCNN 和 Mask RCNN。
 
-### 2.3 目标检测评价指标
+### 2.3 评价指标
 
 目标检测任务中的评价指标至关重要。常见的指标包括精确率、召回率、F1 分数、平均精度 (AP)、均值平均精度 (mAP) 以及 IoU (Intersection over Union) 等。这些指标能够帮助我们衡量模型的检测性能和定位精度。
 
@@ -117,6 +117,9 @@ Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和�
 **[目录](#目录)**
 
 ---
+
+## 3. 目标跟踪
+
 
 ## 3. 工作与研究中的问题与解决方法
 
