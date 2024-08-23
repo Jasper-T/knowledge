@@ -5,16 +5,16 @@
 
 ## 1. 基础算法与技术
 
-### [CNN 概述](doc/cnn.md)
+### 1.1 [CNN 概述](doc/cnn.md)
 卷积神经网络（CNN）是深度学习中的核心技术之一。这篇文档中总结了 CNN 的基本原理、常见的网络结构和CNN的一些重要变体。
 
 
 ## 2. 目标检测模型
 
-### [YOLO 系列知识总结](doc/yolo.md)
+### 2.1 [YOLO 系列知识总结](doc/yolo.md)
 在这篇文档中，我详细总结了 YOLO（You Only Look Once）系列模型的发展历程和各个版本的特点，包括 YOLOv1 到 YOLOv8。我还讨论了模型在实际应用中的表现以及优化的方法。
 
-### [RCNN 系列知识总结](doc/rcnn.md)
+### 2.2 [RCNN 系列知识总结](doc/rcnn.md)
 RCNN（Regions with Convolutional Neural Networks）是目标检测领域的另一个重要系列模型。在这篇文章中，我探讨了从 RCNN 到 Mask RCNN 的演变过程，以及在不同阶段遇到的挑战和解决方案。
 
 
