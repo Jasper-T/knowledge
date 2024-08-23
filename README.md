@@ -1,6 +1,6 @@
 # 技术总结与算法研究
 
-欢迎来到我的技术总结与算法研究文档。在这里，我记录了我在工作和研究过程中遇到的一些重要技术问题、解决方案以及算法研究的成果。
+欢迎来到我的技术总结与算法研究文档。这里记录了我在工作和研究过程中一些算法研究的成果、遇到的重要技术问题以及解决方案。
 
 ## 目录
 
@@ -35,7 +35,7 @@
 - **监督学习**：分类和回归算法，如线性回归、逻辑回归、支持向量机（SVM）。
 - **无监督学习**：聚类和降维技术，如 k-means、主成分分析（PCA）。
 - **强化学习**：通过与环境交互来学习策略的算法，如 Q-learning、SARSA。
-- **详细文档**:[doc/ML/machine_learning.md](doc/ML/machine_learning.md)**
+- **详细文档: [doc/ML/machine_learning.md](doc/ML/machine_learning.md)**
 
 ### 1.2 深度学习
 深度学习是机器学习的一个分支，涉及多层神经网络。这篇文档总结了深度学习的基本概念和技术，包括：
@@ -43,7 +43,7 @@
 - **前馈神经网络（Feedforward Neural Networks）**：最基本的深度学习网络结构。
 - **梯度下降与优化算法**：用于训练神经网络的优化技术，如随机梯度下降（SGD）、Adam 和 RMSprop。
 - **正则化技术**：防止过拟合的方法，如 dropout、L2 正则化等。
-- **详细文档**:[doc/DL/deep_learning.md](doc/DL/deep_learning.md)**
+- **详细文档: [doc/DL/deep_learning.md](doc/DL/deep_learning.md)**
 
 ### 1.3 CNN
 卷积神经网络（CNN）是深度学习中的核心技术之一。这篇文档总结了 CNN 的基本原理、常见的网络结构以及 CNN 的一些重要变体。
@@ -53,7 +53,7 @@
 - **ResNet**：引入了残差学习的概念，解决了深层网络的训练难题。
 - **Inception**：通过使用不同大小的卷积核来捕捉多尺度特征，提升了网络的表达能力。
 - **DenseNet**：通过密集连接的方式来增强特征的重用性，改善了梯度传播。
-- **详细文档**:[doc/DL/cnn.md](doc/DL/cnn.md)**
+- **详细文档: [doc/DL/cnn.md](doc/DL/cnn.md)**
 
 ### 1.4 注意力机制
 注意力机制是现代深度学习模型中的重要组成部分，尤其在处理序列数据时。这篇文档总结了注意力机制的基本概念、不同类型及其应用：
@@ -62,7 +62,7 @@
 - **多头注意力**：通过多个注意力头来捕捉不同的特征信息，提升模型的表达能力。
 - **注意力机制的变体**：包括局部注意力、全局注意力等不同的注意力策略。
 - **应用**：在各类模型中的应用，如 Transformer、BERT、GPT 等。
-- **详细文档**:[doc/DL/attention.md](doc/DL/attention.md)**
+- **详细文档: [doc/DL/attention.md](doc/DL/attention.md)**
 
 ### 1.5 Transformer
 Transformer 模型是自然语言处理和其他任务中具有革命性影响的架构。这篇文档总结了 Transformer 的基本原理及其变体，包括：
@@ -71,7 +71,7 @@ Transformer 模型是自然语言处理和其他任务中具有革命性影响�
 - **GPT**：生成预训练变换器，主要用于生成任务，如文本生成。
 - **T5**：文本到文本的转换器，适用于各种自然语言处理任务。
 - **Transformers 在其他领域的应用**：如图像处理、生成建模等。
-- **详细文档**:[doc/DL/transformer.md](doc/DL/transformer.md)
+- **详细文档：[doc/DL/transformer.md](doc/DL/transformer.md)**
 
 
 ### 1.6 GAN
@@ -79,17 +79,17 @@ Transformer 模型是自然语言处理和其他任务中具有革命性影响�
 - **GANs 的基本原理**：生成器和判别器的对抗训练过程。
 - **常见 GAN 变体**：如 DCGAN、WGAN 和 CycleGAN。
 - **GANs 的应用**：图像生成、图像修复、风格迁移等领域的应用。
-- **详细文档**:[doc/DL/gans.md](doc/DL/gan.md)
+- **详细文档：[doc/DL/gans.md](doc/DL/gan.md)**
 
 
 ### 1.7 强化学习
 强化学习是机器学习中的一个重要领域，涉及智能体通过与环境交互来学习策略。这篇文档总结了强化学习的基础概念：
-- **强化学习的基本概念**：环境、智能体、奖励、策略等。
-- **常见算法**：如 Q-learning、SARSA、Deep Q-Networks（DQN）。
-- **策略梯度方法**：直接优化策略的方法，如 REINFORCE 和 Actor-Critic。
-- **详细文档**：[doc/RL/reinforcement_learning.md](doc/RL/reinforcement_learning.md)
+- **主要组成部分**：环境、智能体、奖励、策略等。
+- **强化学习的类别**：基于价值、策略、模型。
+- **常见算法**：Q学习、策略梯度等。
+- **详细文档：[doc/RL/reinforcement_learning.md](doc/RL/reinforcement_learning.md)**
 
-[返回目录](#目录)
+**[返回目录](#目录)**
 
 ---
 
@@ -114,7 +114,7 @@ Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和�
 
 - **[评价指标](doc/OD/evaluation.md)**
 
-[返回目录](#目录)
+**[返回目录](#目录)**
 
 ---
 
@@ -128,6 +128,6 @@ Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和�
 ### 3.2 [Cpp](doc/QA/cpp.md)
 在这篇文档中，我详细记录了在使用 C++ 编程过程中遇到的一些问题及其解决方法。
 
-[返回目录](#目录)
+**[返回目录](#目录)**
 
 ---
