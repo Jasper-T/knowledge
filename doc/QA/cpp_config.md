@@ -4,9 +4,9 @@
 
 ## 1. 项目目录结构
 
-<div style="text-align: center;">
-  <img src="path/to/image.png" alt="图片描述" style="max-width: 100%; height: auto;">
-</div>
+<p align="center">
+  <img src="../imgs/QA/cpp/cpp_subject_struct.png" alt="cpp项目目录结构图" style="max-width: 100%; height: auto;">
+</p>
 
 ---------------------------------------------------------------------------------------------------------
 |   目录名字    |                                     说明                                     |建议ignore|
